@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="atui_archive">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tests/ui-tests/resources/portal/atui_archive.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

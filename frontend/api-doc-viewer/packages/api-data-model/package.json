@@ -1,0 +1,30 @@
+{
+  "name": "@b41ex/qubership-apihub-api-data-model",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "description": "Convert JSON schema-based document into structured and simplified data tree ",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --maxWorkers 3 --verbose",
+    "test:coverage": "jest --verbose --coverage"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.15",
+    "@types/treeify": "^1.0.0",
+    "jest": "30.4.2",
+    "treeify": "^1.1.0",
+    "ts-jest": "29.4.12",
+    "ts-node": "10.7.0"
+  },
+  "dependencies": {
+    "@b41ex/qubership-apihub-api-diff": "workspace:^",
+    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
+    "@b41ex/qubership-apihub-graphapi": "workspace:^",
+    "@b41ex/qubership-apihub-json-crawl": "workspace:^",
+    "graphql": "16.12.0"
+  },
+  "nx": {
+    "name": "api-doc-viewer-api-data-model"
+  }
+}

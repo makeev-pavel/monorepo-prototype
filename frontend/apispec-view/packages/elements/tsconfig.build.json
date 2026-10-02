@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/__*__/**"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@b41ex/qubership-apihub-apispec-view-elements-core": [
+        "../elements-core/dist"
+      ],
+      "@b41ex/qubership-apihub-apispec-view-elements-core/*": [
+        "../elements-core/dist/*"
+      ]
+    }
+  }
+}

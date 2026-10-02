@@ -1,0 +1,12 @@
+.idea
+.vscode
+/data/**
+/logs/**
+/apihub-test-service.exe
+/apihub-test-service
+/qubership-apihub-test-service
+/qubership-apihub-test-service.exe
+
+
+*.bak
+*.iml

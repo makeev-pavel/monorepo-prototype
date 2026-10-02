@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+out/
+.nx/
+.deploy/
+*.tsbuildinfo
+.DS_Store

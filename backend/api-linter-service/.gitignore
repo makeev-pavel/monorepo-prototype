@@ -1,0 +1,15 @@
+.idea
+.vscode
+*.bak
+*.iml
+/*debug*.exe
+/tmp
+/qubership-api-linter-service
+/config.yaml
+/resources/spectral/linux/spectral
+/resources/spectral/windows/spectral.exe
+/resources/vacuum/linux/vacuum
+/resources/vacuum/windows/vacuum.exe
+
+# APM cache (installed package sources)
+apm_modules/
