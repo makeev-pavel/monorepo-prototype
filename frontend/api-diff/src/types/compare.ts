@@ -123,6 +123,8 @@ export interface CompareOptions extends Omit<NormalizeOptions, 'source'> {
    * Set automatically by the AsyncAPI engine when `firstReferenceKeyProperty` is user-provided.
    */
   retainFirstReferenceKeyProperty?: boolean
+
+  log?: (data: ()=> void) => void
 }
 
 export type DiffCallback = (diff: Diff/*, ctx: CompareContext*/) => void
