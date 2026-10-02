@@ -138,7 +138,7 @@ export const compareDocuments: DocumentsCompare = async (
       beforeValueNormalizedProperty: BEFORE_VALUE_NORMALIZED_PROPERTY,
       apiCompatibilityScopeFunction: createRestApiCompatibilityScopeFunction(prevDocumentApiKind, currDocumentApiKind),
       openApiPathItemPerOperationDiffs: true,
-      log: ()=> console.log()
+      log: ()=> console.log("1")
     },
   ) as { merged: OpenAPIV3.Document; diffs: Diff[] }
 
